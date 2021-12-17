@@ -4,6 +4,15 @@
 # Log file
 *.log
 
+# JetBrains template
+*.iml
+
+# Directory-based project format:
+.idea/
+
+# Build directory
+target/
+
 # BlueJ files
 *.ctxt
 
