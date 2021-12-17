@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="demo.StudentAspect" />
+    </aspects>
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="demo..*" />
+    </weaver>
+</aspectj>
